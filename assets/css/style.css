@@ -1,0 +1,49 @@
+*,
+*:after,
+*:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #62615B;
+}
+
+/*PAINTINGS PAGE GRID USING GRID CSS*/
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,30vw);
+  /* grid-auto-rows: 33vh; */
+  grid-gap:10px;
+}
+.item-container{
+  /* background: #4ceb34; */
+}
+.item{
+  color: white;
+  padding: 10px;
+}
+/* .item-container:nth-child(even){
+  background: #96f288;
+} */
+img{
+  width: 100%;
+}
+.wrapper-painting{
+  width: 50%;
+  
+}
+
+
+/*OTHER STYLES FOR GRID CSS FROM TUTORIAL*/
+/*Explict definition of template rows*/
+/* grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh; */
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) ); */
+/* Can repeat grids using the repeat function below */
+/* grid-template-columns: repeat(3,30vw); */
+
+/*Fractional*/
+/* grid-template-columns: 1fr 1fr 1fr; */

@@ -1,0 +1,9 @@
+title: Paintings
+
+sections:
+  projects:
+    type: pages
+    layout: cards
+    image:
+      cover: true
+      ratio: 3/4
