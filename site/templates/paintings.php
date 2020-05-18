@@ -4,14 +4,13 @@
 
 
 
-    <div class="wrapper">
+    <div class="wrapperPaintings">
       <?php foreach ($page->children() as $project): ?>
-        <a class="item-container" href="<?= $project->url() ?>">
-          <div class="item">
+        <a class="imgContainer" href="<?= $project->url() ?>">
+            <p class="paintingTitle"><?= $project->title() ?></p>
             <?= $project->image()->crop(500, 700) ?>
-            <!-- <?= $project->title() ?> -->
-          </div>
         </a>
+
       <?php endforeach  ?>
     </div>
 

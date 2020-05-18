@@ -7,7 +7,9 @@
       <p><?= $page->heading() ?></p>
       <p><?= $page->text() ?></p>
       <?php foreach ($page->images() as $image): ?>
-        <?= $image->resize(800) ?>
+        <img class="paintingImg" src="<?= $image->url() ?>" alt="">
+        <!-- You can resize images right here in the template file -->
+        <!-- <?= $image->resize(800) ?> -->
       <?php endforeach; ?>
     </div>
 
