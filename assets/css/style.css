@@ -99,7 +99,7 @@ a{
   max-height: 90%;
   min-width: 93%;
   position: absolute;
-  display: block;
+  display: none;
   left: 50%;
   top: 50%;
   transform: translate( -50%, -50%);
@@ -150,24 +150,27 @@ footer{
 }
 /**********PAINTING POST**********/
 .paintingPostGrid{
-  min-height: 70vh;
+  min-height: 100vh;
   display: grid;
-  /* grid-template-columns: 40%, 55%; */
-  grid-gap: 20px;
+  /* grid-template-columns: 50% 50%; */
+  /* grid-gap: 20px; */
   grid-template-columns: repeat(2, 1fr);
+  grid-row: 100vh;
+  background-color: red;
+
 }
 .leftContent{
   font-family: poly;
   font-size: 1.2em;
   line-height: 1.2em;
-  margin: 20px 0 0 0;
+  margin: 20px 40px 0 0;
 }
-.
 .rightContent{
   grid-column-start: 2;
 }
 .paintingImg{
   width: 100%;
+
 }
 .paintingPostTitle{
   font-family: big-caslon-fb, serif;

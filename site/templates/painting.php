@@ -8,6 +8,7 @@
         <h3 class="paintingPostTitle"><?= $page->heading() ?></h3>
         <p><?= $page->text() ?></p>
       </div>
+      
       <div class="rightContent">
         <?php foreach ($page->images() as $image): ?>
           <img class="paintingImg" src="<?= $image->url() ?>" alt="">
