@@ -8,9 +8,9 @@ Heading: Painting B
 
 Text:
 
-this is a lovely lovely painting
-oh
-yea
-it
-is </br>
-buddy
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae posuere mauris. Quisque pretium libero eu nibh malesuada, id malesuada elit euismod. Nunc in pretium mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere leo ut pretium pulvinar. In eget libero varius, sagittis ex sed, ullamcorper quam. Suspendisse interdum, arcu ut pulvinar congue, dui diam elementum libero, in iaculis massa ex non lorem.
+
+
+
+
+Nam eu condimentum risus, ac venenatis nulla. Sed nec felis a ex luctus finibus. Aliquam et euismod est. Nunc sed odio rhoncus, condimentum magna a, bibendum nisl. Aliquam lobortis ex odio, non imperdiet erat rhoncus at. Nulla nunc nibh, ornare facilisis nulla in, egestas lacinia elit. Nam venenatis mi id euismod semper. Pellentesque interdum, odio vel tempus ultrices, metus ex tincidunt neque, vel vehicula enim sem eu purus. Nam vitae erat ac nunc egestas placerat ac ut nibh. Sed tellus mauris, porttitor sit amet ipsum id, iaculis condimentum urna. Sed finibus scelerisque turpis ac viverra. Cras in pellentesque elit, non venenatis justo. Suspendisse volutpat erat sed efficitur imperdiet. Fusce maximus molestie augue non pharetra.

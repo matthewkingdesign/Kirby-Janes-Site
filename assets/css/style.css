@@ -149,15 +149,48 @@ footer{
   transform: translate(-50%, -50%);
 }
 /**********PAINTING POST**********/
-.wrapper-painting{
-  width: 50%;
+.paintingPostGrid{
+  min-height: 70vh;
+  display: grid;
+  /* grid-template-columns: 40%, 55%; */
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.leftContent{
+  font-family: poly;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 20px 0 0 0;
+}
+.
+.rightContent{
+  grid-column-start: 2;
 }
 .paintingImg{
-
+  width: 100%;
 }
-
-
-
+.paintingPostTitle{
+  font-family: big-caslon-fb, serif;
+  font-size: 1.8em;
+  margin: 0 0 20px 0;
+}
+.paintingPostPrevNext{
+  width: 100%;
+  position: relative;
+}
+.navTags{
+  font-size: .6em;
+  letter-spacing: 1.5px;
+}
+#prevNavTag{
+  left: 0;
+  position: absolute;
+}
+#nextNavTag{
+  right: 0;
+  position: absolute;
+  /* margin-left: 80%; */
+}
 /*OTHER STYLES FOR GRID CSS FROM TUTORIAL*/
 /*Explict definition of template rows*/
 /* grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh; */
