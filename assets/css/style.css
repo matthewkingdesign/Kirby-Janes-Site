@@ -68,6 +68,7 @@ table {
 a{
   text-decoration: none;
   color: #62615B;
+  font-family: brandon-grotesque, sans-serif;
 }
 /********** GLOBAL LAYOUT **********/
 .container{
@@ -81,9 +82,9 @@ a{
   position: relative;
 }
 .content{
-  /* background-color: #fcfcfc; */
+  background-color: #fcfcfc;
   border: 2px solid #62615B;
-  max-height: 90%;
+  min-height: 90%;
   min-width: 95%;
   position: absolute;
   top: 50%;
@@ -94,11 +95,20 @@ a{
 .content::-webkit-scrollbar{
   display: none;
 }
-
-/***** GLOBAL MENU*****/
+.contentWrapper{
+  max-height: 90%;
+  min-width: 93%;
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 50%;
+  transform: translate( -50%, -50%);
+  overflow-y: scroll;
+}
+/********** GLOBAL MENU **********/
 footer{
   position: fixed;
-  bottom: 3rem;
+  bottom: 4%;
   width: 100%;
   text-align: center;
 }
@@ -106,30 +116,37 @@ footer{
   width: 30%;
   margin: 0 auto;
   background-color: #fcfcfc;
-
 }
+.menuItem{
+  font-size: .6em;
+  letter-spacing: 1.5px;
+  padding: 0 10px;
+}
+
 /**********PAINTINGS PAGE GRID USING GRID CSS**********/
-.wrapperPaintings{
+.paintinsGrid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem;
-  margin: 3rem;
 }
 .imgContainer{
   position: relative;
 }
-.imgContainer p{
-  position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-}
 .imgContainer img{
   width: 100%;
-  /* z-index: 1; */
+}
+.imgContainer img:hover{
+  opacity: 0.2;
+  transition: 0.3s;
 }
 .paintingTitle{
-  text-align: center
+  text-align: center;
+  font-family: big-caslon-fb, serif;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /**********PAINTING POST**********/
 .wrapper-painting{

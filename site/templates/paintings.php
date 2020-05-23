@@ -4,15 +4,17 @@
 
 
 
-    <div class="wrapperPaintings">
-      <?php foreach ($page->children() as $project): ?>
-        <a class="imgContainer" href="<?= $project->url() ?>">
-            <p class="paintingTitle"><?= $project->title() ?></p>
-            <?= $project->image()->crop(500, 700) ?>
-        </a>
 
-      <?php endforeach  ?>
-    </div>
+      <div class="paintinsGrid">
+        <?php foreach ($page->children() as $project): ?>
+          <a class="imgContainer" href="<?= $project->url() ?>">
+              <p class="paintingTitle"><?= $project->title() ?></p>
+              <?= $project->image()->crop(500, 700) ?>
+          </a>
+
+        <?php endforeach  ?>
+      </div>
+    
 
 
 
