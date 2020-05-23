@@ -14,7 +14,7 @@ a{
   text-decoration: none;
   color: #62615B;
 }
-/* GLOBAL LAYOUT*/
+/********** GLOBAL LAYOUT **********/
 .container{
   height: 100vh;
   width: 100vw;
@@ -39,21 +39,26 @@ a{
 .content::-webkit-scrollbar{
   display: none;
 }
-/*PAINTINGS PAGE GRID USING GRID CSS*/
+
+/***** GLOBAL MENU*****/
+footer{
+  position: fixed;
+  bottom: 6.5%;
+  width: 100%;
+  text-align: center;
+}
+.menu{
+  width: 30%;
+  margin: 0 auto;
+  background-color: #fcfcfc;
+
+}
+/**********PAINTINGS PAGE GRID USING GRID CSS**********/
 .wrapperPaintings{
-  /* min-width: 100%;
-  min-height: 100%; */
   display: grid;
   grid-template-columns: repeat(3, 25vw);
-
   grid-gap: 5rem;
   margin: 5rem;
-  /* align-items: center;
-  justify-items:center; */
-  /* align-content: center; */
-  /* align-items: center;
-  justify-content: center; */
-
 }
 .imgContainer{
   position: relative;
@@ -64,27 +69,21 @@ a{
    left: 50%;
    transform: translate(-50%, -50%);
 }
-.item{
-
-}
 .imgContainer img{
   width: 100%;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .paintingTitle{
   text-align: center
 }
-/* .item-container:nth-child(even){
-  background: #96f288;
-} */
-
+/**********PAINTING POST**********/
 .wrapper-painting{
   width: 50%;
-
 }
 .paintingImg{
 
 }
+
 
 
 /*OTHER STYLES FOR GRID CSS FROM TUTORIAL*/
