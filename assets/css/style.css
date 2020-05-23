@@ -28,8 +28,8 @@ a{
 .content{
   /* background-color: #fcfcfc; */
   border: 2px solid #62615B;
-  max-height: 85%;
-  max-width: 94%;
+  max-height: 90%;
+  min-width: 95%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -43,7 +43,7 @@ a{
 /***** GLOBAL MENU*****/
 footer{
   position: fixed;
-  bottom: 6.5%;
+  bottom: 3rem;
   width: 100%;
   text-align: center;
 }
@@ -56,9 +56,9 @@ footer{
 /**********PAINTINGS PAGE GRID USING GRID CSS**********/
 .wrapperPaintings{
   display: grid;
-  grid-template-columns: repeat(3, 25vw);
-  grid-gap: 5rem;
-  margin: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  margin: 3rem;
 }
 .imgContainer{
   position: relative;
