@@ -3,7 +3,7 @@
 
     <!-- If the defualt php page is loaded show the text from that txt file  -->
     <div class="paintingsPostWrapper">
-      <div class="paintingPostGrid">
+      <!-- <div class="paintingPostGrid"> -->
 
         <div class="leftContent">
           <h3 class="paintingPostTitle"><?= $page->heading() ?></h3>
@@ -12,7 +12,7 @@
 
         <div class="rightContent">
           <?php foreach ($page->images() as $image): ?>
-            <img class="paintingImg" src="<?= $image->url() ?>" alt="">
+            <img class="paintingImg <?= $image->orientation() ?>" src="<?= $image->url() ?>" alt="">
           <?php endforeach; ?>
           <nav class="paintingPostPrevNext">
             <?php if($prev = $page->prev()): ?>
@@ -24,7 +24,7 @@
           </nav>
         </div>
 
-      </div>
+      <!-- </div> -->
     </div>
 
 
