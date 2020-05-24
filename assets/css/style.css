@@ -74,7 +74,7 @@ a{
 .container{
   height: 100vh;
   width: 100vw;
-  background-color: #fcfcfc;
+  background-color: #787878;
   color: #62615B;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 100;
@@ -82,7 +82,7 @@ a{
   position: relative;
 }
 .content{
-  background-color: #fcfcfc;
+  background-color: #a3a3a3;
   border: 2px solid #62615B;
   min-height: 90%;
   min-width: 95%;
@@ -96,6 +96,7 @@ a{
   display: none;
 }
 .contentWrapper{
+	background-color: #545151;
   max-height: 90%;
   min-width: 93%;
   position: absolute;
@@ -149,15 +150,15 @@ footer{
   transform: translate(-50%, -50%);
 }
 /**********PAINTING POST**********/
-.paintingPostGrid{
-  min-height: 100vh;
-  display: grid;
-  /* grid-template-columns: 50% 50%; */
-  /* grid-gap: 20px; */
-  grid-template-columns: repeat(2, 1fr);
-  grid-row: 100vh;
-  background-color: red;
+.paintingsPostWrapper{
 
+}
+.paintingPostGrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #dbdbdb;
+	grid-row: 100%;
+	margin: 0;
 }
 .leftContent{
   font-family: poly;
@@ -167,10 +168,13 @@ footer{
 }
 .rightContent{
   grid-column-start: 2;
+	max-height: 70%;
+
 }
 .paintingImg{
-  width: 100%;
-
+  max-width: 100%;
+	max-height: 90%;
+	margin: 0;
 }
 .paintingPostTitle{
   font-family: big-caslon-fb, serif;
@@ -185,15 +189,14 @@ footer{
   font-size: .6em;
   letter-spacing: 1.5px;
 }
-#prevNavTag{
+/* #prevNavTag{
   left: 0;
   position: absolute;
 }
 #nextNavTag{
   right: 0;
   position: absolute;
-  /* margin-left: 80%; */
-}
+} */
 /*OTHER STYLES FOR GRID CSS FROM TUTORIAL*/
 /*Explict definition of template rows*/
 /* grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh; */
