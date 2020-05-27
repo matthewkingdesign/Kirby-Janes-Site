@@ -70,6 +70,10 @@ a{
   color: #62615B;
   font-family: brandon-grotesque, sans-serif;
 }
+/*Adds margin bottom to paragraphs*/
+p:not(:last-of-type){
+	margin-bottom: 1rem;
+}
 /********** GLOBAL LAYOUT **********/
 .container{
   height: 100vh;
@@ -200,6 +204,7 @@ footer{
 .navTags{
   font-size: .6em;
   letter-spacing: 1.5px;
+	margin-top: 20px;
 }
 #prevNavTag{
   left: 0;
