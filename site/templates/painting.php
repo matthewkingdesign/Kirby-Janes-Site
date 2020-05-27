@@ -7,7 +7,7 @@
 
         <div class="leftContent">
           <h3 class="paintingPostTitle"><?= $page->heading() ?></h3>
-          <p><?= $page->text() ?></p>
+          <p><?= $page->text()->kt() ?></p>
         </div>
 
         <div class="rightContent">

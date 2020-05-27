@@ -1,1 +1,13 @@
 Title: Painting-c
+
+----
+
+Heading: Painting C
+
+----
+
+Text:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper vel tellus vel scelerisque. Aliquam mollis, dui vitae ullamcorper blandit, ex urna euismod odio, quis viverra augue ante non ligula. Donec vel faucibus nibh. Maecenas aliquam nisl ut posuere egestas. Donec vel cursus arcu. Nulla sed lorem facilisis, dapibus est non, convallis augue. Nulla euismod, risus quis aliquet gravida, velit nisl porta odio, finibus dignissim mi justo at nibh. Sed commodo velit ornare velit eleifend, eu fringilla ipsum varius. Suspendisse nec felis turpis. Maecenas est sem, vestibulum quis consequat at, blandit id orci. Cras suscipit elit vitae risus gravida, faucibus posuere purus tristique. Vivamus tristique, ligula in finibus auctor, elit libero finibus erat, ut dignissim sapien nisi quis sapien. Aenean nulla lacus, vehicula ut vulputate eget, auctor vitae urna. Donec quis aliquam lacus, in semper arcu.
+
+Nam elementum arcu eu lorem malesuada dignissim. Ut mollis facilisis pellentesque. Quisque consectetur ante nisl, sodales faucibus nunc elementum et. Suspendisse at dui vel metus porta commodo. Donec metus dui, commodo quis sagittis eget, vulputate vehicula lectus. Maecenas sapien nunc, tempor euismod libero nec, laoreet consequat ligula. Curabitur fringilla sagittis metus in condimentum. Morbi auctor, elit ac accumsan varius, lorem tortor bibendum leo, eu lobortis enim arcu ac quam. Nulla scelerisque semper lorem, at porta augue. Donec vehicula, ante in mattis dignissim, massa orci lobortis nibh, non condimentum metus ligula sodales ante. In venenatis iaculis odio, at porttitor turpis consectetur id. Donec eleifend lorem ac est sodales malesuada vel luctus neque. Cras luctus risus et odio vulputate, in condimentum ipsum facilisis. Sed pellentesque sodales dui vel rutrum. Sed posuere commodo libero a porttitor. Suspendisse ut lobortis nibh.
