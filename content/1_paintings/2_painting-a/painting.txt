@@ -2,4 +2,8 @@ Title: Painting-a
 
 ----
 
-Text: HElLO WORLD
+Heading: Painting A
+
+----
+
+Text: HElLO WORLD Nice of you to come by.
