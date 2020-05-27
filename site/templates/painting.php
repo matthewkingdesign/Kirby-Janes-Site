@@ -12,7 +12,7 @@
 
         <div class="rightContent">
           <?php foreach ($page->images() as $image): ?>
-            <img class="paintingImg <?= $image->orientation() ?>" src="<?= $image->url() ?>" alt="">
+            <img id="paintingPostImg" class="paintingImg <?= $image->orientation() ?>" src="<?= $image->url() ?>" alt="">
           <?php endforeach; ?>
           <nav class="paintingPostPrevNext">
             <?php if($prev = $page->prev()): ?>
