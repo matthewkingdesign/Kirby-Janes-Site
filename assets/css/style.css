@@ -48,10 +48,12 @@ table {
 	border-spacing: 0;
 }
 /************* FONTS *************/
-@font-face {
-    font-family: 'Poly';
-    src: url('../fonts/Poly-Regulars.ttf');
-}
+/*
+USING FONTS FROM ADOBE
+Big Calson
+Skolar
+Brandon Grotesque
+*/
 /************* SOME RESETS *************/
 *,
 *:after,
@@ -173,7 +175,7 @@ footer{
 .leftContent{
 	width: 40%;
 	float: left;
-  font-family: poly;
+	font-family: skolar-latin, serif;
   font-size: 1.2em;
   line-height: 1.2em;
   /* margin: 20px 40px 0 0; */
@@ -208,24 +210,24 @@ footer{
   font-size: 1.8em;
   margin: 0 0 20px 0;
 }
-/* .paintingPostPrevNext{
-  width: 100%;
+.paintingPostPrevNext{
+  /* width: 100%; */
   position: relative;
 	background: blue;
-	height: 20px;
-} */
+
+	margin: 0 auto;
+	display: block;
+}
 .navTags{
   font-size: .6em;
   letter-spacing: 1.5px;
 	margin-top: 20px;
 }
 #prevNavTag{
-  left: 0;
-  position: absolute;
+	float: left;
 }
 #nextNavTag{
-  right: 0;
-  position: absolute;
+	float: right;
 }
 /*OTHER STYLES FOR GRID CSS FROM TUTORIAL*/
 /*Explict definition of template rows*/
