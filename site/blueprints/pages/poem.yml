@@ -1,0 +1,22 @@
+title: Poem
+
+columns:
+  left:
+    width: 3/4
+    fields:
+      heading:
+        type: text
+      text:
+        label: Text
+        type: textarea
+        size: large
+
+  right:
+    width: 1/4
+    sections:
+      gallery:
+        type: files
+        layout: cards
+        image:
+          cover: true
+          ration: 3/4

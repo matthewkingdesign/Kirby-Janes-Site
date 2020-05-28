@@ -156,14 +156,6 @@ footer{
   transform: translate(-50%, -50%);
 }
 /**********PAINTING POST**********/
-
-/* .paintingPostGrid{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background-color: #dbdbdb;
-	grid-row: 100%;
-	margin: 0;
-} */
 .paintingsPostWrapper{
 	height: 80vh;
 	/* background: yellow; */
@@ -205,7 +197,7 @@ footer{
 	max-height: 70vh;
 	/* margin: 0 7% 0 7%; */
 }
-.paintingPostTitle{
+.poemHeading, .paintingPostTitle{
   font-family: big-caslon-fb, serif;
   font-size: 1.8em;
   margin: 0 0 20px 0;
@@ -228,6 +220,24 @@ footer{
 }
 #nextNavTag{
 	float: right;
+}
+/********** POEMS **********/
+.poemsContainer{
+	width: 40%;
+	margin: 0 auto;
+	display: block;
+}
+.poemsContainer img{
+	width: 20%;
+	display: block;
+	margin: 80px auto;
+
+}
+.poemHeading{
+	text-align: center;
+}
+.poemText{
+	margin-top: 30px;
 }
 /*OTHER STYLES FOR GRID CSS FROM TUTORIAL*/
 /*Explict definition of template rows*/
