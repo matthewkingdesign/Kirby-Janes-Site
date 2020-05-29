@@ -2,4 +2,12 @@ Title: Home
 
 ----
 
+Heading: Jane Gibbs Artist
+
+----
+
+Subtitle: PAINTINGS & VERSE
+
+----
+
 Text: this is the home page allllright
