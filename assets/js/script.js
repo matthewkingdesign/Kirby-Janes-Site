@@ -1,17 +1,20 @@
 // This is the script for Janes Site
-//VARIABLES
-
 
 $(document).ready(function(){
+  //Variables
+  var $imgWidth = $('#paintingPostImg').width();
+  // log the Variable to the console - check it is working
+  console.log($imgWidth);
+  // Fades the content when going throught the site
     $('.contentWrapper').fadeIn(400);
     $('a').click(function(){
       $('.contentWrapper').fadeOut(200);
     });
-    var $imgWidth = $('#paintingPostImg').width();
-    console.log($imgWidth);
+  // base width of nav bar on the width of the img
     $('.paintingPostPrevNext').css('width', $imgWidth);
 });
 
+//check window load works. Not sure yet as to why this is important
 $(window).on('load', function() {
   console.log('hello window');
 });

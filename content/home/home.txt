@@ -1,1 +1,5 @@
 Title: Home
+
+----
+
+Text: this is the home page allllright

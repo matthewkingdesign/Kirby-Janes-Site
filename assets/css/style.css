@@ -223,7 +223,7 @@ footer{
 }
 /********** POEMS **********/
 .poemsContainer{
-	width: 40%;
+	width: 30%;
 	margin: 0 auto;
 	display: block;
 }
@@ -238,6 +238,11 @@ footer{
 }
 .poemText{
 	margin-top: 30px;
+	font-family: skolar-latin, serif;
+}
+.poemsContainer p{
+	font-family: skolar-latin, serif;
+	line-height: 1.2rem;
 }
 /*OTHER STYLES FOR GRID CSS FROM TUTORIAL*/
 /*Explict definition of template rows*/
