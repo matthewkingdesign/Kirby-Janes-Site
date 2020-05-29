@@ -11,6 +11,33 @@ columns:
             type: text
           text:
             type: textarea
+          Art_Heading:
+            label: Art Heading
+            type: text
+          Art_text:
+            type: textarea
+          Verse_Heading:
+            type: text
+          Verse_Text:
+            type: textarea
+          email:
+            label: Email
+            type: email
+          instaUrl:
+            label: instagram
+            type: url
+          twitterUrl:
+            label: twitter
+            type: url
+          facebookUrl:
+            label: facebook
+            type: url
+          getInTouch:
+            label: Get In Touch
+            type: text
+          getInTouchText:
+            label: Get In Touch Text
+            type: textarea
   right:
     width: 1/2
     sections:

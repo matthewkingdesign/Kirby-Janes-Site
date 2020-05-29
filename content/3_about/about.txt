@@ -2,8 +2,64 @@ Title: ABOUT
 
 ----
 
-Text: 
+Heading: About Me
 
 ----
 
-Heading: Big up Agency
+Text: Hi, my name is Jane Gibbs and I live just outside of Bath, England with my husband and family. I have always enjoyed being creative and have explored many creative avenues over the years with my hobbies and projects, but my two great passions are words and pictures. I adore being able to express what I am thinking and feeling. I believe we are all creative in different ways with so much to inspire us whether it be love and relationships, or nature and current affairs. For me, my inspiration is my love and relationship with God. Not a religious belief but as a heart and mind connection to Him. Whether you have a faith or not my hope is that my work will speak for itself and may inspire you. In addition to this I hope it brings you comfort, hope, joy or simply pleasure.
+
+----
+
+Art-heading: Art
+
+----
+
+Art-text:
+
+I find a blank canvas exciting. It is so full of potential and promise. Some of my work has been planned out beforehand and I will sit with a paintbrush and paint an image or landscape; however, the majority of the work you will find on this site has been a process.
+
+The main theme through all of my art is movement. I will always start with a base or background and build up the painting in layers. On some occasions there will be a lapse of time and I will return to the painting, but in most cases it is completed in a single session. I find acrylics the best medium due to its texture and drying time. Using movement to build up the layers the end product will have not just colour, but also texture and movement to convey what I want to express. I will often use traditional painting tools including paintbrushes, pipettes, palate knives etc... along with different fabrics, twigs and sticks, sponges and shells. Applying the paint with my hands and finger tips to caress the canvas I will also swirl, splat, rub, dab, drag and drip. The end product conveys the movement, texture and colours used to speak.
+
+----
+
+Verse-heading: Verse
+
+----
+
+Verse-text:
+
+I have always been a wordsmith and have been described as a scribe, using words to convey a message. Ever since I was a child I have taken delight in storytelling, using my imagination to construct characters and a storyline. I adore both reading and writing poetry. It is so part of culture, not just traditional poetry but also in song lyrics and in more modern times rap music. Each piece bringing its own message whether it be Shakespeare or Stormzy.
+
+For me to be able to describe what I am thinking or feeling is thrilling. Sometimes the poem is fully formed inside my head and I simply need to write it out. More often I have a few lines or the idea of what I want to say and it unfolds as I begin to write. Personally I prefer to handwrite it. There is something very rewarding watching it flow from within through my pen onto the paper. Again it is the movement used to create and express my thoughts, feelings, impressions and the message I want to bring.
+
+----
+
+Email: hello@janegibbsartist.com
+
+----
+
+Instaurl: https://www.instagram.com/
+
+----
+
+Twitterurl: https://twitter.com/explore
+
+----
+
+Facebookurl: https://en-gb.facebook.com/
+
+----
+
+Getintouch: Get in Touch
+
+----
+
+Getintouchtext: Please feel free to contact me for more information and to purchase my work.
+
+----
+
+Poems-heading: Verse
+
+----
+
+Poem-text: 

@@ -76,6 +76,7 @@ a{
 p:not(:last-of-type){
 	margin-bottom: 1rem;
 }
+
 /********** GLOBAL LAYOUT **********/
 .container{
   height: 100vh;
@@ -197,7 +198,7 @@ footer{
 	max-height: 70vh;
 	/* margin: 0 7% 0 7%; */
 }
-.poemHeading, .paintingPostTitle{
+.aboutPageTitle, .poemHeading, .paintingPostTitle{
   font-family: big-caslon-fb, serif;
   font-size: 1.8em;
   margin: 0 0 20px 0;
@@ -244,6 +245,33 @@ footer{
 	font-family: skolar-latin, serif;
 	line-height: 1.2rem;
 }
+/********** ABOUT PAGE **********/
+.socialContainer{
+	width: 100%;
+	/* text-align: center; */
+}
+.socialContainer li{
+	display: inline-block;
+	margin: 10px 20px 0 0;
+}
+.rightContent p{
+	font-family: skolar-latin, serif;
+	line-height: 1.2rem;
+	font-size: 1.2em;
+}
+#getInTouchTitle{
+	margin-top: 30px;
+}
+#email{
+	font-family: skolar-latin, serif;
+	font-weight: 400;
+	font-style: italic;
+}
+/* .aboutPageTitle{
+	margin-top: 30px;
+} */
+
+
 /*OTHER STYLES FOR GRID CSS FROM TUTORIAL*/
 /*Explict definition of template rows*/
 /* grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh; */
