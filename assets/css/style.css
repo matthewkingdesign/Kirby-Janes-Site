@@ -304,6 +304,9 @@ footer{
 #homePageSubTitle{
 	letter-spacing: 3px;
 }
+/********** MEDIA QUERIES **********/
+
+
 /*OTHER STYLES FOR GRID CSS FROM TUTORIAL*/
 /*Explict definition of template rows*/
 /* grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh; */
