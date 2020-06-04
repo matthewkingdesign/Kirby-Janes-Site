@@ -2,15 +2,17 @@
 
 $(document).ready(function(){
   //Variables
-  var $imgWidth = $('#paintingPostImg').width();
+
   // log the Variable to the console - check it is working
-  console.log($imgWidth);
+
   // Fades the content when going throught the site
     $('.contentWrapper').fadeIn(400);
     $('a').click(function(){
       $('.contentWrapper').fadeOut(200);
     });
   // base width of nav bar on the width of the img
+    var $imgWidth = $('#paintingPostImg').width();
+    console.log($imgWidth);
     $('.paintingPostPrevNext').css('width', $imgWidth);
 });
 
