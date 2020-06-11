@@ -290,8 +290,8 @@ footer{
 	min-width: 100%;
 }
 .homePageContentContainer{
-	height:180px;
-	width: 450px;
+	min-height:180px;
+	min-width: 450px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -305,44 +305,7 @@ footer{
 	letter-spacing: 3px;
 }
 /********** MEDIA QUERIES **********/
-@media (max-width: 600px){
-	/*MAIN CONTENT BOUNDARIES*/
-	.content{
-		min-height: 98%;
-	}
-	.contentWrapper{
-		min-height: 97%;
-	}
-	/*MENU*/
-	footer{
-		bottom: .6%;
-	}
-	.menu{
-		width: 70%;
-	}
-	/*Paintings*/
-  .paintinsGrid {
-    grid-template-columns: 1fr;
-  }
-	.rightContent, .leftContent{
-		width: 100%;
-	}
-	.rightContent{
-		top: 0;
-		clear: both;
-	}
-	.homePageContentContainer{
-		width: 300px;
-		height: 130px;
-		padding-top: 30px;
-		background: none;
-		color: #fcfcfc;
-	}
-	.homePageImg{
-		max-height: 97%;
-		max-width: 93%;
-	}
-}
+
 
 /*OTHER STYLES FOR GRID CSS FROM TUTORIAL*/
 /*Explict definition of template rows*/

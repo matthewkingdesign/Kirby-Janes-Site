@@ -1,9 +1,9 @@
 // This is the script for Janes Site
 
 $(document).ready(function(){
-  //Variables
 
-  // log the Variable to the console - check it is working
+
+
 
   // Fades the content when going throught the site
     $('.contentWrapper').fadeIn(400);
@@ -20,14 +20,3 @@ $(document).ready(function(){
 $(window).on('load', function() {
   console.log('hello window');
 });
-
-// if ($('#paintingPostImg').hasClass('portrait')) {
-//       console.log('hello world');
-//   $('#prevNavTag').css('margin-left', '10%');
-//   // $('.paintingPostPrevNext').css('width', '30%');
-// }
-
-
-// $('.paintingImg').css({
-//   'width':$imgWidth+'px'
-// });
