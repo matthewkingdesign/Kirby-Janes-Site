@@ -5,7 +5,7 @@
     <div class="paintingsPostWrapper">
 
 
-        <div class="leftContent">
+        <div class="leftContentAboutPage">
           <h3 class="aboutPageTitle"><?= $page->heading() ?></h3>
           <p><?= $page->text()->kt() ?></p>
           <h3 class="aboutPageTitle"><?= $page->Art_Heading() ?></h3>
@@ -14,9 +14,9 @@
           <p><?= $page->Verse_Text()->kt() ?></p>
         </div>
 
-        <div class="rightContent">
+        <div class="rightContentAboutPage">
           <?php if($image = $page->image('jane.jpg')): ?>
-            <img class="" src="<?= $image->url() ?>" alt="">
+            <img id="paintingPostImg" src="<?= $image->url() ?>" alt="">
           <?php endif ?>
 
           <h3 id="getInTouchTitle" class="aboutPageTitle"><?= $page->getInTouch() ?></h3>

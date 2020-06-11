@@ -170,7 +170,7 @@ footer{
 .paintingsPostWrapper.leftContent{
 	overflow-y: scroll;
 }
-.leftContent{
+.leftContentAboutPage, .leftContent{
 	width: 40%;
 	float: left;
 	font-family: skolar-latin, serif;
@@ -184,7 +184,7 @@ footer{
 	position: relative;
 	overflow-y: scroll
 }
-.rightContent{
+.rightContentAboutPage, .rightContent{
 	float: right;
 	width: 50%;
 	position: relative;
@@ -324,13 +324,33 @@ footer{
   .paintinsGrid {
     grid-template-columns: 1fr;
   }
-	.rightContent, .leftContent{
+	.rightContentAboutPage, .rightContent{
+		float: left;
+		width: 100%;
+		clear: both;
+		top: 0;
+		position: absolute;
+	}
+	.rightContentAboutPage{
+		height: 150%;
+	}
+	.leftContentAboutPage{
+		margin-top: 900px;
+		height: 300%;
+	}
+	.leftContentAboutPage, .leftContent{
+		width: 100%;
+		float: right:
+		clear: both;
+		position: absolute;
+		height: 100%;
+
+	}
+	/*POEMS*/
+	.poemsContainer{
 		width: 100%;
 	}
-	.rightContent{
-		top: 0;
-		clear: both;
-	}
+	/*HOME PAGE*/
 	.homePageContentContainer{
 		width: 300px;
 		height: 130px;

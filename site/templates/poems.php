@@ -8,8 +8,6 @@
         <h2 class="poemHeading"><?= $project->heading() ?></h2>
         <p class="poemText"><?= $project->text()->kt() ?></p>
         <?= $project->image()->resize(600)?>
-
-
   <?php endforeach  ?>
 </div>
 
