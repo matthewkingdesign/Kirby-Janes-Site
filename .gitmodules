@@ -1,0 +1,6 @@
+[submodule "site/plugins/site/plugins/meta-tags"]
+	path = site/plugins/site/plugins/meta-tags
+	url = https://github.com/pedroborges/kirby-meta-tags.git
+[submodule "site/plugins/meta-tags"]
+	path = site/plugins/meta-tags
+	url = https://github.com/pedroborges/kirby-meta-tags.git
