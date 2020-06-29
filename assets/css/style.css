@@ -135,6 +135,7 @@ footer{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem;
+	opacity: 0;
 }
 .imgContainer{
   position: relative;
@@ -161,10 +162,14 @@ footer{
 	display: block;
 }
 /**********PAINTING POST**********/
+.leftContent, .rightContent{
+	opacity: 0;
+}
+
 .paintingsPostWrapper{
 	height: 80vh;
+	opacity: 0;
 	/* background: yellow; */
-
 }
 .paintingsPostWrapper.leftContent{
 	overflow-y: scroll;
@@ -196,7 +201,6 @@ footer{
   max-width: 100%;
 	margin: 0 auto;
 	display: block;
-
 }
 .paintingImg.portrait{
 	max-height: 70vh;
@@ -231,6 +235,7 @@ footer{
 	width: 30%;
 	margin: 0 auto;
 	display: block;
+	opacity: 0;
 }
 .poemsContainer img{
 	width: 20%;
@@ -284,6 +289,7 @@ footer{
 	transform: translate( -50%, -50%);
 	overflow-y: hidden;
 	display: block;
+	opacity: 0;
 }
 .homePageImg img{
 	min-width: 100%;
@@ -311,6 +317,7 @@ footer{
 	}
 	.contentWrapper{
 		min-height: 97%;
+		opacity: 0;
 	}
 	/*MENU*/
 	footer{
